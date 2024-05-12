@@ -1,0 +1,14 @@
+﻿.nj-tree {
+    display: flex;
+}
+
+    .nj-tree .nj-tree-node {
+    }
+
+        .nj-tree .nj-tree-node .nj-tree-node-title {
+            display: inline-flex;
+            align-items: center;
+            cursor: pointer;
+            width: 100%;
+            background-color: #ccc;
+        }

@@ -1,0 +1,58 @@
+﻿.nj-input-file {
+    vertical-align: bottom;
+    outline: 0;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+    box-sizing: border-box;
+    font-family: inherit;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0;
+    color: inherit;
+    transform: translateZ(0);
+}
+
+    .nj-input-file .nj-input-root {
+        padding: 0;
+        margin: 0;
+        opacity: 0;
+        position: absolute;
+    }
+
+    .nj-input-file .nj-input-file-button {
+        margin: 0 auto;
+        display: block;
+    }
+
+    /* VARIANT FLAT */
+    .nj-input-file.nj-input-file-variant-flat:hover,
+    .nj-input-file.nj-input-file-variant-flat:focus {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .nj-input-file.nj-input-file-variant-flat:active {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    /* VARIANT RAISED */
+    .nj-input-file.nj-input-file-variant-raised {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    }
+
+        .nj-input-file.nj-input-file-variant-raised:hover,
+        .nj-input-file.raised:focus {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+        }
+
+        .nj-input-file.nj-input-file-variant-raised:active {
+            box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.26);
+        }
+
+        .nj-input-file.nj-input-file-variant-raised:disabled {
+            box-shadow: none;
+        }

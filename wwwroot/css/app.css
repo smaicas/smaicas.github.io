@@ -1,0 +1,37 @@
+:root {
+    --light-appbarBackground: #fff;
+    --light-appbarText: #111;
+    --dark-appbarBackground: #000;
+    --dark-appbarText: #eee;
+    --dark-primary: #222;
+    --dark-secondary: #444;
+    --dark-background: #222;
+    --light-primary: #ddd;
+    --light-secondary: #bbb;
+    --light-background: #ddd;
+    --light-inputOptionsBackground: var(--light-background);
+    --dark-inputOptionsBackground: var(--dark-background);
+}
+
+.layout-simple-header-top-1 {
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+    .layout-simple-header-top-1 .header {
+        position: fixed;
+        display: flex;
+        flex-flow: row;
+        width: 100%;
+    }
+
+    .layout-simple-header-top-1 .main-content .main-content-section {
+        min-height: 100vh;
+        display: flex; /* Use flexbox */
+        flex-direction: column;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        width: 100%;
+    }
+
+

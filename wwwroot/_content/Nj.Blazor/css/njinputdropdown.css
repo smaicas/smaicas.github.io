@@ -1,0 +1,57 @@
+﻿.nj-input-dropdown {
+    cursor: pointer;
+}
+
+.nj-input-dropdown-options {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: var(--input-box-inner-padding);
+    background-color: var(--palette-inputOptionsBackground);
+}
+
+.nj-input-dropdown-option {
+    cursor: pointer;
+    line-height: var(--input-line-height);
+    padding: var(--input-box-inner-padding);
+}
+
+    .nj-input-dropdown-option:hover,
+    .nj-input-dropdown-option.active {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+.nj-input.nj-input-dropdown:before,
+.nj-input.nj-input-dropdown:after {
+    box-sizing: border-box;
+}
+/*VARIANT FILLED*/
+.nj-input.nj-input-dropdown.nj-input-dropdown-variant-filled {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*VARIANT OUTLINE*/
+.nj-input.nj-input-dropdown.nj-input-dropdown-variant-outline:before {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: " ";
+    position: absolute;
+    transition: border-bottom .2s, background-color .2s;
+    border: 1px solid var(--palette-inputBorderColor);
+    pointer-events: none;
+    height: 100%;
+}
+
+.nj-input.nj-input-dropdown.nj-input-dropdown-variant-outline:after {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: " ";
+    position: absolute;
+    transition: transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    border-bottom: 2px solid var(--palette-primary);
+    pointer-events: none;
+    height: 100%;
+}

@@ -1,0 +1,103 @@
+/* TEXT BUTTON */
+
+.nj-input.nj-text-button .nj-input-root {
+    cursor: pointer;
+    text-align: center;
+}
+
+.nj-text-button {
+    vertical-align: bottom;
+    outline: 0;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+    box-sizing: border-box;
+    font-family: inherit;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0;
+    color: inherit;
+    transform: translateZ(0);
+}
+
+    /* VARIANT FLAT */
+    .nj-text-button.nj-text-button-variant-flat:hover,
+    .nj-text-button.nj-text-button-variant-flat:focus {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .nj-text-button.nj-text-button-variant-flat:active,
+    .nj-text-button.nj-text-button-variant-flat.active {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    /* VARIANT RAISED */
+    .nj-text-button.nj-text-button-variant-raised {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    }
+
+        .nj-text-button.nj-text-button-variant-raised:hover,
+        .nj-text-button.raised:focus {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+        }
+
+        .nj-text-button.nj-text-button-variant-raised:active,
+        .nj-text-button.nj-text-button-variant-raised.active {
+            box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.26);
+        }
+
+        .nj-text-button.nj-text-button-variant-raised:disabled {
+            box-shadow: none;
+        }
+
+/* ACTION BUTTON */
+
+.nj-action-button {
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 3.5em;
+    height: 3.5em;
+}
+
+    .nj-action-button .nj-input-root {
+        border: inherit;
+        border-radius: inherit;
+        width: inherit;
+        height: inherit;
+        cursor: pointer;
+    }
+
+    /* VARIANT FLAT */
+    .nj-action-button.nj-action-button-variant-flat:hover,
+    .nj-action-button.nj-action-button-variant-flat:focus {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .nj-action-button.nj-action-button-variant-flat:active,
+    .nj-action-button.nj-action-button-variant-flat.active {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    /* VARIANT RAISED */
+    .nj-action-button.nj-action-button-variant-raised {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    }
+
+        .nj-action-button.nj-action-button-variant-raised:hover,
+        .nj-action-button.raised:focus {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+        }
+
+        .nj-action-button.nj-action-button-variant-raised:active,
+        .nj-action-button.nj-action-button-variant-raised:active {
+            box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.26);
+        }
+
+        .nj-action-button.nj-action-button-variant-raised:disabled {
+            box-shadow: none;
+        }
