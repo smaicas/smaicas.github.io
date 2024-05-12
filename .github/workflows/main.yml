@@ -17,7 +17,7 @@ jobs:
         run: echo '' > wwwroot/.nojekyll
       
       - name: Replace base href in index.html
-        run: sed -i 's|<base href="/" />|<base href="https://smaicas.github.io/smaicas.github.io/" />|' wwwroot/index.html
+        run: sed -i 's|<base href="/" />|<base href="https://smaicas.github.io/" />|' wwwroot/index.html
         
       - name: Overwrite gh-pages branch wich is published in github pages
         uses: rayluo/github-pages-overwriter@v1.3
