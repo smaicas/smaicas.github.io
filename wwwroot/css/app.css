@@ -13,6 +13,10 @@
     --dark-inputOptionsBackground: var(--dark-background);
 }
 
+p{
+    font-size:1.2rem;
+}
+
 .layout-simple-header-top-1 {
     overflow: hidden;
     min-height: 100vh;
