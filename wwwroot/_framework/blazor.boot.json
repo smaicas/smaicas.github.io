@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Nj.GithubSite.Wasm",
   "resources": {
-    "hash": "sha256-Y2QIU7cTeo/LrKbWmRV41eJpG1FflrqZRA8P1cQHVvU=",
+    "hash": "sha256-ioKUWJEAKc/EeXbn/8kHYk/g/orJi0D+LRt9zlPUo38=",
     "jsModuleNative": {
       "dotnet.native.8.0.4.0zsawrbvkh.js": "sha256-tesOhzDOwWzAtN6qW9RADHi8VQ380Cy7R1LqgVVm6nc="
     },
@@ -38,23 +38,23 @@
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-i8yLC1pzEZMAPAHK2MyunJW81S6Tpyvwka9LDZSylx8=",
       "netstandard.wasm": "sha256-bpHQWPp1kWsIQtcoT/toI9nTzrbawVgjP+8C4BNkiZY=",
       "Newtonsoft.Json.wasm": "sha256-GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s=",
-      "Nj.Blazor.Abstractions.wasm": "sha256-yQB/lZZcIUsDgVJ9CRJflXHTI/9b91xF1bAX4Qa4tgw=",
-      "Nj.Blazor.Audio.wasm": "sha256-CEEdFdFcmjbTFxJp4grJChkJIpo31RENuT+/O5NMSGA=",
-      "Nj.Blazor.ColorPicker.wasm": "sha256-kJurXLnABDhDHn/q0cpriz2fvp5LRT5YW1zLUG+LPa8=",
-      "Nj.Blazor.Dom.wasm": "sha256-ca3hWi5KfBUzn2j/ZbC/HlgzaL0ZY22Kci9iQ9rJrzk=",
-      "Nj.Blazor.SourceGenerators.wasm": "sha256-vbq2CsLx/il5KtPi0Zp53ibKXfj5i2idIvKNlOKhAsM=",
-      "Nj.Blazor.wasm": "sha256-5zDJ/MKOzV6ajv7EaElGCDDO3Ed4Q9Tl/cNjemWcmDo=",
-      "Nj.Blazor.Wasm.wasm": "sha256-bhVh9mn6OLQgX8urkhhr+U1Ikte3/ffFC1OOhJsXoxs=",
-      "Nj.Cache.wasm": "sha256-U5hLFAMKLH+qdphuXoYhESksDsQebhYOyC0EA3r2l6Y=",
-      "Nj.Collections.wasm": "sha256-TtMM251UN77yG8IUMn4m+GBAhIhoT22jVNUUxRyiqzc=",
-      "Nj.Colors.wasm": "sha256-vm2Rqo1jsXfmgHLlVo5xtGpuVshvZFNtfmE/x7mEs6w=",
-      "Nj.Css.Abstractions.wasm": "sha256-FAIv4/Km/hfoYRU+h0ydNM2K5bTIfcgqKTK7TavuCHk=",
-      "Nj.Css.wasm": "sha256-3cFly4r06rWdsNINngva177HbKiwImRaneBg17gB/dE=",
-      "Nj.GithubSite.Wasm.wasm": "sha256-vSyXiDPbaKXI2oJHC8Gt3oXraVS5hrw7AgrYLsJzeeY=",
-      "Nj.Highlight.wasm": "sha256-YMICNJdUuiHOx0xNL1QpUtY9BMLjhVTsNR7GdO9n//U=",
-      "Nj.Numbers.wasm": "sha256-rFC1hOoUc49FoKHafYQwGr+DT/w+JQtlEFrGFgiA1cQ=",
-      "Nj.Razor.Language.wasm": "sha256-Z4W6nmu+ThNKZX4AmSniFJeaTM2FeWMai8T/oNLuUXc=",
-      "Nj.Strings.wasm": "sha256-trrl+1kjY4QHNhKD6fYEXCvcm73Qmkhgh3Ash8N9tNk=",
+      "Nj.Blazor.Abstractions.wasm": "sha256-HngMomVp+vr7fs/Mi/gCIPl/TdL4xvlmvFu1Pb59Gck=",
+      "Nj.Blazor.Audio.wasm": "sha256-7fYkqS1bxYHV4Mmz88I/kumgymPbSQwMu1YasfgZF1c=",
+      "Nj.Blazor.ColorPicker.wasm": "sha256-De9GqGQo5mfPiUWVH/zXnYYGJoxDha6p3QzPtRWxEO4=",
+      "Nj.Blazor.Dom.wasm": "sha256-mkZkNxRBx/7paHXrU4pr2PjyOxj4nchsRKcZZ7McpVA=",
+      "Nj.Blazor.SourceGenerators.wasm": "sha256-T+dkSZRzWiFgwLsK+KAKfOULd3jQYCAITxX0xiQA8vs=",
+      "Nj.Blazor.wasm": "sha256-9Qre1slQZh1yB883olxievTqb3VazN8VxAVoZVUH6F0=",
+      "Nj.Blazor.Wasm.wasm": "sha256-btHlw7Cg5vKWXWBWIVg7ONqAXJNqPCR20sEhL+vyrbY=",
+      "Nj.Cache.wasm": "sha256-1+gnzt6n2FxV7tZkMvODogufSYB47EEeQuhmv5R73nw=",
+      "Nj.Collections.wasm": "sha256-hR/rD4WEEsTHS6HubO624uNwmelnvc6rdHhZgOfGvuk=",
+      "Nj.Colors.wasm": "sha256-CgZa4jezWZpU33aecgkoNsGEoxXWMPu2iYcLZLsCUCo=",
+      "Nj.Css.Abstractions.wasm": "sha256-WmFtDbzm1sPkk2IzwOiGnHbKT/Q5zbVlzi0uhbe7DV4=",
+      "Nj.Css.wasm": "sha256-nbqHpEYXOnCsoewfTIHTkgJ5Vh4tv5kR+XZI/3XP1wI=",
+      "Nj.GithubSite.Wasm.wasm": "sha256-qjqG8HeJ1fSva3aEUA+LGy6cRt9XGxFGWUwVVZKITSs=",
+      "Nj.Highlight.wasm": "sha256-gWZYrj/po3jlF4+mxWEj5dqWtWYXn3iyYhL2WYfkgOc=",
+      "Nj.Numbers.wasm": "sha256-9t0v10KkaTf6Ss/F+sLH7DP0QvGlKyt0NJKFrjDjgA8=",
+      "Nj.Razor.Language.wasm": "sha256-e6FlIVgRfs/wn21eIQ+PXG3XFEZc3h8wlCcpskCSjsE=",
+      "Nj.Strings.wasm": "sha256-iEwe1FpPfk4hGCQ3LnXk3T40IZAMn8nJMX4+xZCDigk=",
       "System.Collections.Concurrent.wasm": "sha256-8YAhbt1XKgdPuOOxQ/pyXJIySZhQPa1SxpyuyHjjWjg=",
       "System.Collections.Immutable.wasm": "sha256-ne5H/7p2Bmh+yqY6h08C7R1sjEVduBAcP517n8aTYCQ=",
       "System.Collections.NonGeneric.wasm": "sha256-XcXZfkMHJ3M4L1C/yLGP1SwcnSYsmXnowY89Ssqd0KM=",
@@ -124,7 +124,7 @@
       "es": {
         "Microsoft.CodeAnalysis.CSharp.resources.wasm": "sha256-Xy6+ibWo4nqy/QYGm0XmG9Kfpe+Bx5UmVLNZ8EPbUdE=",
         "Microsoft.CodeAnalysis.resources.wasm": "sha256-rRclas6cZihnKdqlWJ24tG/9Jk7ugpVdycUqbcd7vBA=",
-        "Nj.GithubSite.Wasm.resources.wasm": "sha256-UhcedO7qmHcEMGKUvRGdZuI0es4EAO2a399NZ/dz3vk="
+        "Nj.GithubSite.Wasm.resources.wasm": "sha256-CIOruxHWyIR9GxE2sx2myO4CqkVuWafpnpAX3csltvQ="
       },
       "fr": {
         "Microsoft.CodeAnalysis.CSharp.resources.wasm": "sha256-GKooXgXuyfOJwROdgm/QQ1DmLh2jHybqLfdo3KpLs50=",
