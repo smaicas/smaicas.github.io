@@ -45,20 +45,6 @@ body[b-j3sqewklhb] {
 main[b-j3sqewklhb] {
     flex: 1;
 }
-/* _content/Nj.Blazor/Components/Basic/Layout/NjLayout.razor.rz.scp.css */
-html[b-5xp7uy7cvb] {
-    height: 100vh;
-}
-
-body[b-5xp7uy7cvb] {
-    height: 100vh;
-    background-color: var(--palette-background);
-    color: var(--palette-backgroundContrast);
-}
-
-main[b-5xp7uy7cvb] {
-    flex: 1;
-}
 /* _content/Nj.Blazor/Components/Basic/Tabs/NjTabs.razor.rz.scp.css */
 .nj-tabs[b-dr2fh0kc8c] {
     display: flex;
