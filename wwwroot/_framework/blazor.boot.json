@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Nj.GithubSite.Wasm",
   "resources": {
-    "hash": "sha256-kIcy2iUMvevSxsPX8QRBF2Ur8jKbldWeIYGUEGyqZfs=",
+    "hash": "sha256-03BNks1sI0V6CJISC7aqunVV2e6T2S4UvlQOMhLDvUM=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.0zsawrbvkh.js": "sha256-uC99/a/wWvu3qowvhsYB3YQVxFDA+2uDznjSQp2bJUQ="
     },
@@ -50,7 +50,7 @@
       "Nj.Colors.wasm": "sha256-njNK4C37tVMUihX8QC/7pgaBiRQ3b74NqUclGD9RyYc=",
       "Nj.Css.Abstractions.wasm": "sha256-T2wiv9jW1wqSrPBc0ub6/j0fohOKnwcKWXlw9UNyFjA=",
       "Nj.Css.wasm": "sha256-BjuaMZKmwJqZQrrTgdelYKMD9xkfv112QwiyFQ+kj8g=",
-      "Nj.GithubSite.Wasm.wasm": "sha256-fYS1q8OJJf+CC1ohc1WzP0zm13x67UzdG5JsXtpCQKE=",
+      "Nj.GithubSite.Wasm.wasm": "sha256-6qJOexpEypvA0BXXWc+QIz8ACPsW1eZbntOkyDMQqZI=",
       "Nj.Highlight.wasm": "sha256-xWE3Ziv1SkBXUMssUX8Y+4LcrA6IFasE9HtAv+d4Z7s=",
       "Nj.Numbers.wasm": "sha256-F7UU3Uv4C/q3SZtochs+zc7K9pNS6D79Ncds1GEc9Bo=",
       "Nj.Razor.Language.wasm": "sha256-up15Bmvk/Fd6c+S7DjCJ9AM5+iBJMnU+oNDfe759Xbo=",
@@ -124,7 +124,7 @@
       "es": {
         "Microsoft.CodeAnalysis.CSharp.resources.wasm": "sha256-Xy6+ibWo4nqy/QYGm0XmG9Kfpe+Bx5UmVLNZ8EPbUdE=",
         "Microsoft.CodeAnalysis.resources.wasm": "sha256-rRclas6cZihnKdqlWJ24tG/9Jk7ugpVdycUqbcd7vBA=",
-        "Nj.GithubSite.Wasm.resources.wasm": "sha256-+5gd/Acvgv3mye4TCxWy1WYZ3U8I4jmNlyJbe46R13U="
+        "Nj.GithubSite.Wasm.resources.wasm": "sha256-mJWvWXPBGJGJawVS0/UrxANqLB/mcRI4FitJXBkPdo0="
       },
       "fr": {
         "Microsoft.CodeAnalysis.CSharp.resources.wasm": "sha256-GKooXgXuyfOJwROdgm/QQ1DmLh2jHybqLfdo3KpLs50=",
