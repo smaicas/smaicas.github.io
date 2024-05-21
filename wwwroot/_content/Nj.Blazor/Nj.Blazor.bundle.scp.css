@@ -1,3 +1,28 @@
+/* _content/Nj.Blazor/Components/Basic/Grid/NjGrid.razor.rz.scp.css */
+.nj-grid[b-3q1mcrdno2] {
+    display: grid;
+    grid-auto-flow: dense;
+}
+.nj-inline-grid[b-3q1mcrdno2] {
+    display: inline-grid;
+    grid-auto-flow: dense;
+}
+    .nj-grid.fill[b-3q1mcrdno2] {
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    }
+    .nj-grid.fit[b-3q1mcrdno2] {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+
+.nj-grid-cell[b-3q1mcrdno2] {
+    border: 1px solid #ccc;
+}
+/* _content/Nj.Blazor/Components/Basic/Grid/NjGridCell.razor.rz.scp.css */
+.nj-grid-cell[b-f3m0obujws] {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
 /* _content/Nj.Blazor/Components/Basic/Icon/NjSvgIcon.razor.rz.scp.css */
 .nj-icon-svg[b-2cef3gcm9z] {
     width: 1em;
@@ -10,6 +35,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: currentColor;
 }
 
 .nj-icon-size-small[b-2cef3gcm9z] {
@@ -117,17 +143,17 @@ main[b-j3sqewklhb] {
 }
 /* _content/Nj.Blazor/Components/Controls/Button/ActionButton/Variants/NjActionButtonVariantRaised.razor.rz.scp.css */
 .nj-action-button.nj-action-button-variant-raised[b-qofcbwlqm4] {
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    box-shadow: 0 2px 5px 0 var(--palette-backgroundContrast);
 }
 
     .nj-action-button.nj-action-button-variant-raised:hover[b-qofcbwlqm4],
     .nj-action-button.nj-action-button-variant-raised:focus[b-qofcbwlqm4] {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+        box-shadow: 0 4px 8px 0 var(--palette-backgroundContrast);
     }
 
     .nj-action-button.nj-action-button-variant-raised:active[b-qofcbwlqm4],
     .nj-action-button.nj-action-button-variant-raised:active[b-qofcbwlqm4] {
-        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.26);
+        box-shadow: 0 2px 6px 0 var(--palette-backgroundContrast);
     }
 
     .nj-action-button.nj-action-button-variant-raised:disabled[b-qofcbwlqm4] {
@@ -145,17 +171,17 @@ main[b-j3sqewklhb] {
 }
 /* _content/Nj.Blazor/Components/Controls/Button/TextButton/Variants/NjTextButtonVariantRaised.razor.rz.scp.css */
 .nj-text-button.nj-text-button-variant-raised[b-khl3deih1w] {
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    box-shadow: 0 2px 5px 0 var(--palette-backgroundContrast);
 }
 
     .nj-text-button.nj-text-button-variant-raised:hover[b-khl3deih1w],
     .nj-text-button.raised:focus[b-khl3deih1w] {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+        box-shadow: 0 4px 8px 0 var(--palette-backgroundContrast);
     }
 
     .nj-text-button.nj-text-button-variant-raised:active[b-khl3deih1w],
     .nj-text-button.nj-text-button-variant-raised.active[b-khl3deih1w] {
-        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.26);
+        box-shadow: 0 2px 6px 0 var(--palette-backgroundContrast);
     }
 
     .nj-text-button.nj-text-button-variant-raised:disabled[b-khl3deih1w] {
@@ -213,9 +239,7 @@ code.nj-highlight-theme-default[b-mywngn2g9l] {
 }
 
 .nj-file-renderer-content[b-9kj4lzcfph] {
-    box-shadow: black -2px -1px 10px;
     display: block;
-    height: 100vh;
     overflow-y: scroll;
     padding: 2rem;
     position: relative;
@@ -355,6 +379,34 @@ code.nj-highlight-theme-default[b-mywngn2g9l] {
         border-radius: calc(var(--sizeAdjustment) * 25px);
         box-shadow: calc(var(--sizeAdjustment) * 30px) calc(var(--sizeAdjustment) * 30px) 0px white, calc(var(--sizeAdjustment) * 50px) calc(var(--sizeAdjustment) * 20px) 0px white, calc(var(--sizeAdjustment) * 65px) calc(var(--sizeAdjustment) * 25px) 0px white, calc(var(--sizeAdjustment) * 29px) calc(var(--sizeAdjustment) * 28px) 0px #d7d7d7, calc(var(--sizeAdjustment) * 49px) calc(var(--sizeAdjustment) * 18px) 0px #d7d7d7, calc(var(--sizeAdjustment) * 65px) calc(var(--sizeAdjustment) * 23px) 0px #d7d7d7;
     }
+/* _content/Nj.Blazor/Components/Inputs/Date/Variants/NjInputDateVariantFilled.razor.rz.scp.css */
+.nj-input.nj-input-date-variant-filled[b-4q7ejyrfzy] {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/* _content/Nj.Blazor/Components/Inputs/Date/Variants/NjInputDateVariantOutline.razor.rz.scp.css */
+.nj-input.nj-input-date-variant-outline.nj-underline[b-n8hr3rfubp]:before {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: " ";
+    position: absolute;
+    transition: border-bottom .2s, background-color .2s;
+    border: 1px solid var(--palette-inputBorderColor);
+    pointer-events: none;
+    height: 100%;
+}
+
+.nj-input.nj-input-date-variant-outline.nj-underline[b-n8hr3rfubp]:after {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: " ";
+    position: absolute;
+    transition: transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    border-bottom: 2px solid var(--palette-primary);
+    pointer-events: none;
+    height: 100%;
+}
 /* _content/Nj.Blazor/Components/Inputs/Dropdown/Variants/NjInputDropdownVariantFilled.razor.rz.scp.css */
 .nj-input.nj-input-dropdown.nj-input-dropdown-variant-filled[b-qn20jycxk8] {
     background-color: rgba(0, 0, 0, 0.2);
